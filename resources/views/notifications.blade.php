@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<div class="main-panel">
     <div class="content">
         <div class="container-fluid">
             <h4 class="page-title">Notifications</h4>
@@ -9,7 +8,9 @@
                     <div class="card">
                         <div class="card-header">
                             <div class="card-title">Bootstrap Notify</div>
-                            <div class="card-category">Turn standard bootstrap alerts into "growl" like notifications from <a class="link" href="http://bootstrap-notify.remabledesigns.com/">Bootstrap Notify</a></div>
+                            <div class="card-category">Turn standard bootstrap alerts into "growl" like notifications from <a
+                                    class="link" href="http://bootstrap-notify.remabledesigns.com/">Bootstrap Notify</a>
+                            </div>
                         </div>
                         <div class="card-body">
                             <div class="form">
@@ -73,5 +74,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection

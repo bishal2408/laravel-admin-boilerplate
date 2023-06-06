@@ -14,8 +14,8 @@
 	<div class="wrapper">
 		@include('layouts.navbar')
 		@include('layouts.sidebar')
-		<div class="content-wrapper">
-        	@yield('content')
+		<div class="main-panel">
+			@yield('content')
     	</div>
 	</div>
 </body>

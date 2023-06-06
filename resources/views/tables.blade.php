@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<div class="main-panel">
     <div class="content">
         <div class="container-fluid">
             <h4 class="page-title">Tables</h4>
@@ -11,7 +10,7 @@
                             <div class="card-title">Basic Table</div>
                         </div>
                         <div class="card-body">
-                            <div class="card-sub">									
+                            <div class="card-sub">
                                 This is the basic table view of the ready dashboard :
                             </div>
                             <table class="table mt-3">
@@ -50,7 +49,7 @@
                             <div class="card-title">Striped Rows</div>
                         </div>
                         <div class="card-body">
-                            <div class="card-sub">											
+                            <div class="card-sub">
                                 Add <code class="highlighter-rouge">.table-striped</code> to rows the striped table
                             </div>
                             <table class="table table-striped mt-3">
@@ -83,7 +82,8 @@
                                 </tbody>
                             </table>
                             <div class="card-sub">
-                                Add <code class="#highlighter-rouge">.table-striped-bg-*states</code> to change background from striped rows
+                                Add <code class="#highlighter-rouge">.table-striped-bg-*states</code> to change background
+                                from striped rows
                             </div>
                             <table class="table table-striped table-striped-bg-default mt-3">
                                 <thead>
@@ -151,7 +151,9 @@
                         </div>
                         <div class="card-body">
                             <div class="card-sub">
-                                Create responsive tables by wrapping any table with <code class="highlighter-rouge">.table-responsive</code> <code class="highlighter-rouge">DIV</code> to make them scroll horizontally on small devices
+                                Create responsive tables by wrapping any table with <code
+                                    class="highlighter-rouge">.table-responsive</code> <code
+                                    class="highlighter-rouge">DIV</code> to make them scroll horizontally on small devices
                             </div>
                             <div class="table-responsive">
                                 <table class="table table-bordered">
@@ -274,8 +276,9 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <div class="card-sub">											
-                                You can also add <code class="highlighter-rouge">.table-bordered-bd-*states</code> to change the border color of the table
+                            <div class="card-sub">
+                                You can also add <code class="highlighter-rouge">.table-bordered-bd-*states</code> to change
+                                the border color of the table
                             </div>
                             <table class="table table-bordered table-bordered-bd-warning mt-4">
                                 <thead>
@@ -307,7 +310,8 @@
                                 </tbody>
                             </table>
                             <div class="card-sub">
-                                It can also add <code class="highlight-rouge">.table-head-bg-*states</code> so that the table header has the same color as the border color of the table
+                                It can also add <code class="highlight-rouge">.table-head-bg-*states</code> so that the
+                                table header has the same color as the border color of the table
                             </div>
                             <table class="table table-bordered table-head-bg-info table-bordered-bd-info mt-4">
                                 <thead>
@@ -409,5 +413,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection
